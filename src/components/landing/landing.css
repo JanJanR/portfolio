@@ -1,0 +1,21 @@
+.intro{
+  color: #bc9c22;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: 'Megrim', cursive;
+  margin-top: 100px;
+}
+
+.intro h1{
+  margin-left: 120px;
+}
+
+.intro img{
+  width: 340px;
+  height: 340px;
+  margin-right: 145px;
+  /* box-shadow: 5px 5px 5px grey; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
