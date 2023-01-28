@@ -18,12 +18,12 @@
 
 .description {
   background-color: #E4C88E;
-  height: 240px;
-  width: 677px;
+  height: 270px;
+  width: 740px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 50px;
   font-size: 25px;
-}
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
 
 .description p {
   margin-left: 20px;

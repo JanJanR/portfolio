@@ -13,7 +13,8 @@ const Aboutme = () => {
         </div>
         <div className="description">
           <p>I am a Full Stack Developer passionate about designing, developing, and problem-solving applications
-            and website. As a basketball player playing as a team is the key to win, so I am excited to communicate
+            and website. I graduated in a 10-weeks course at LeWagon London where I learn a lot specially in web-developent.
+            I believe as a basketball player playing as a team is the key to win, so I am excited to communicate
             and work with others to accomplish great projects.
             I love to learn new things and I am excited at the prospect of collaborating with others and
             writing in a professional setting.</p>
