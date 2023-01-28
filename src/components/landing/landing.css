@@ -1,11 +1,12 @@
 .intro{
-  color: #bc9c22;
+  color: #E4C88E;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 30px;
   font-family: 'Aboreto', cursive;
   margin-top: 100px;
+  margin-bottom: 250px;
 }
 
 .intro h1{

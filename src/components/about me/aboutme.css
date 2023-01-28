@@ -1,0 +1,35 @@
+.title h2{
+  color: #E4C88E;
+  text-align: center;
+  font-size: 55px;
+  font-family:'Aboreto', cursive;
+}
+
+.logo-computer img{
+  width: 340px;
+  height: 340px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description {
+  background-color: #E4C88E;
+  height: 240px;
+  width: 677px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.description p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  margin-bottom: 150px;
+}
