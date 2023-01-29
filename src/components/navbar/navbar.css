@@ -19,3 +19,7 @@ img {
   font-family: 'Megrim', cursive;
   color: #E4C88E;
 }
+
+.navbar a:hover {
+  color: #ffff;
+}

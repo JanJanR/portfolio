@@ -3,7 +3,7 @@ import computer from '../../assets/memoji computer.png'
 
 const Aboutme = () => {
   return (
-    <div className="container">
+    <div className="container" id="aboutme">
       <div className="title">
         <h2>About me</h2>
       </div>
