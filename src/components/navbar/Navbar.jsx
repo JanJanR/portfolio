@@ -14,7 +14,7 @@ const Navbar = () => {
       <img src= { logo } alt="logo" />
         <div>
           <Link to="aboutme" spy={true} smooth={true} offset={-80} duration={800} onClick={closeMenu}>Aboutme</Link>
-          <a href="/"id="skills">Skills</a>
+          <Link to="skills" spy={true} smooth={true} offset={-120} duration={800} onClick={closeMenu}> Skills</Link>
           <a href="/"id="projects">Projects</a>
           <a href="/"id="contactme">Contact me</a>
         </div>
