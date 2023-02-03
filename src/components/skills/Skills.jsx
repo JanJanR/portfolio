@@ -1,6 +1,8 @@
 import './skills.css'
 import frontend from '../../assets/frontend logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faTerminal } from '@fortawesome/free-solid-svg-icons'
 
 const Skills = () => {
   return (
@@ -19,6 +21,7 @@ const Skills = () => {
         </div>
         <div className="white-background">
           <div className="black-header">
+            <FontAwesomeIcon icon={faLaptopCode} className="laptop"/>
              <div className="backend">
               <h2>Backend</h2>
             </div>
@@ -26,6 +29,7 @@ const Skills = () => {
         </div>
         <div className="white-background">
           <div className="black-header">
+          <FontAwesomeIcon icon={faTerminal} className="terminal"/>
             <div className="other">
               <h2>Other</h2>
             </div>

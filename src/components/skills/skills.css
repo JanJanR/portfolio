@@ -25,7 +25,7 @@
 
 .black-header{
   background-color: black;
-  height: 69px;
+  height: 80px;
   border-radius: 29px 29px 0 0;
 }
 
@@ -35,6 +35,20 @@
   margin-top: 0;
 }
 
-img {
+.black-header img {
   margin-left: 0;
+  margin-top: 10px;
+}
+
+.laptop {
+  color: #f1dd3f;
+  height: 36px;
+  margin-top: 10px;
+}
+
+.terminal {
+  color: #f1dd3f;
+  height: 25px;
+  margin-top: 13px;
+  margin-bottom: 5px;
 }
