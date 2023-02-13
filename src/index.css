@@ -1,4 +1,5 @@
 body {
   margin: 0;
-  background-image: url("assets/background.jpg");
+  /* background-image: url("assets/background.jpg"); */
+  background: linear-gradient(to right, black, #E4C88E );
 }

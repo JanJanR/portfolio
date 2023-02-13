@@ -1,5 +1,5 @@
 import './landing.css'
-import memoji from '../../assets/memoji.png'
+import memoji from '../../assets/memoji hi.png'
 
 const landing = () => {
   return (
