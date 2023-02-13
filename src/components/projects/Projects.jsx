@@ -9,11 +9,15 @@ const projects = () => {
         <h2>Projects</h2>
       </div>
       <div className="projects">
-        <div className="final-project">
-          <img src= {walkin} alt="" />
+        <div className="card">
+          <div className="final-project">
+            <img src= {walkin} alt="" />
+          </div>
         </div>
-        <div className="airbnb-clone">
-          <img src={clone} alt="" />
+        <div className="card">
+          <div className="airbnb-clone">
+            <img src={clone} alt="" />
+          </div>
         </div>
       </div>
     </div>
