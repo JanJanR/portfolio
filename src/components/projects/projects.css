@@ -43,10 +43,12 @@ button {
   height: 40px;
   border-radius: 20px;
   background: none;
-  border: 3px solid #E4C88E;
+  border: 2px solid #E4C88E;
   color: #E4C88E;
   position: relative;
   z-index: 1;
+  transition: ease-out 0.3s;
+  outline: none;
 }
 
 button:hover {
@@ -55,7 +57,7 @@ button:hover {
 }
 
 button:before {
-  transition: 0.5 all ease;
+  transition: 0.5s all ease;
   position: absolute;
   top: 0;
   left: 50%;
@@ -64,10 +66,11 @@ button:before {
   opacity: 0;
   content: "";
   background-color: #E4C88E;
+  border-radius: 20px;
 }
 
 button:hover:before {
-  transition: 0.5 all ease;
+  transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
