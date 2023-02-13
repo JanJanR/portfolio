@@ -12,11 +12,13 @@ const projects = () => {
         <div className="card">
           <div className="final-project">
             <img src= {walkin} alt="" />
+            <p>Walkin is a mobile app that helps people to find a table for tonight to make a reservation.</p>
           </div>
         </div>
         <div className="card">
           <div className="airbnb-clone">
             <img src={clone} alt="" />
+            <p>AirBroomNBroom (AirBnB clone) is a market place for broomstick rental.</p>
           </div>
         </div>
       </div>

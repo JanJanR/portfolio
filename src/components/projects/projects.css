@@ -1,15 +1,20 @@
 .final-project img{
-  height: 250px;
-  width: 500px;
   background-color: white;
-  /* border-radius: 60px */
+}
+.final-project p,
+.airbnb-clone p {
+  color: #E4C88E;
+  font-size: 18px;
 }
 
-.airbnb-clone img {
+.airbnb-clone img,
+.final-project img {
   height: 250px;
   width: 500px;
-  /* border-radius: 60px; */
+  border-radius: 40px;
+  margin-top: 30px;
 }
+
 
 .projects {
   display: flex;
@@ -18,7 +23,8 @@
 
 .card {
   background-color: black;
-  height: 600px;
-  width: 510px;
+  height: 450px;
+  width: 530px;
   text-align: center;
+  border-radius: 40px;
 }
