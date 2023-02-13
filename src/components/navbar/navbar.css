@@ -22,4 +22,5 @@
 
 .navbar a:hover {
   color: #ffff;
+  cursor: pointer;
 }
