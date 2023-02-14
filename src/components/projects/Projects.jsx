@@ -1,8 +1,12 @@
+import './projects.css'
 import walkin from '../../assets/Mockup Walkin (1).png'
 import clone from '../../assets/AirBroomNBroom.png'
-import './projects.css'
+import Modal from './Modalwalkin';
+import { useState } from 'react';
 
-const projects = () => {
+const Projects = () => {
+  const [openModal, setOpenModal] = useState(false)
+
   return (
     <div className="project-container">
       <div className="title">
@@ -13,8 +17,9 @@ const projects = () => {
           <div className="final-project">
             <img src= {walkin} alt="" />
             <p>Walkin is a mobile app that helps people to find a table for tonight to make a reservation.</p>
-            <div className="button">
-              <button>Learn More</button>
+            <div className="btn">
+              <button onClick={() => setOpenModal(true)}>Learn More</button>
+              <Modal open={openModal} onClose={() => setOpenModal(false)} />
             </div>
           </div>
         </div>
@@ -22,7 +27,7 @@ const projects = () => {
           <div className="airbnb-clone">
             <img src={clone} alt="" />
             <p>AirBroomNBroom (AirBnB clone) is a market place for broomstick rental.</p>
-            <div className="button">
+            <div className="btn">
               <button>Learn More</button>
             </div>
           </div>
@@ -32,4 +37,4 @@ const projects = () => {
    );
 }
 
-export default projects;
+export default Projects;
