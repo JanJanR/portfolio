@@ -15,6 +15,7 @@
   transform: translate(-50%, -50%);
   z-index: 1000;
   display: flex;
+  border-radius: 20px;
 }
 
 .image img {
@@ -55,20 +56,32 @@
 .info p {
   color: white;
   font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.info a {
+.link {
   text-decoration: none;
-  background-color: violet;
+  background-color: #9382FF;
   font-size: 25px;
   margin-left: 20px;
   color: white;
-  width: 120px;
+  width: 150px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link:hover {
+  background-color: white;
+  color:#9382FF;
 }
 
 .github {
-  color: white;
-  font-size: 23px;
+  color: #9382FF;
+  font-size: 30px;
   margin-left: 20px;
 
+}
+
+.github:hover {
+  color: white;
 }

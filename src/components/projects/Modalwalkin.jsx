@@ -3,6 +3,7 @@ import './modalwalkin.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
+
 const Modal = ({open, onClose}) => {
 
   if(!open) return null
@@ -18,8 +19,10 @@ const Modal = ({open, onClose}) => {
           <p className='text'>WALKIN</p>
           <div className="info">
             <p>Mobile App |</p>
-            <a href="https://walk--in.herokuapp.com/" target="_blank" rel="noreferrer"> Live </a>
-            <FontAwesomeIcon icon={faGithub} className="github" />
+            <a href="https://walk--in.herokuapp.com/" target="_blank" rel="noreferrer" className='link'> Try it now</a>
+            <a href="https://github.com/JanJanR/walk-in" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="github" />
+            </a>
           </div>
           <hr />
           <br />
