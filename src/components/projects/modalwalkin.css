@@ -28,13 +28,33 @@
   position: fixed;
   top: 8px;
   right: 20px;
-}
-
-.titleWalkin {
-  font-size: 50px;
+  cursor: pointer;
+  color: white;
 }
 
 .content p {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info p {
+  color: white;
+  font-size: 19px;
+}
+
+.github {
+  color: white;
+  font-size: 23px;
 }

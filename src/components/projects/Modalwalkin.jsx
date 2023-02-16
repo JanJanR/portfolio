@@ -1,5 +1,7 @@
 import walkin from '../../assets/landing page walkin.png'
 import './modalwalkin.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Modal = ({open, onClose}) => {
 
@@ -12,8 +14,15 @@ const Modal = ({open, onClose}) => {
           <img src={walkin} alt="" />
         </div>
         <div className="modalRight">
-          <p className='titleWalkin'>WALKIN</p>
           <p onClick={onClose} className='close'>X</p>
+          <p className='text'>WALKIN</p>
+          <div className="info">
+            <p>Mobile</p>
+            <a href="https://walk--in.herokuapp.com/" target="_blank" rel="noreferrer"> Live </a>
+            <FontAwesomeIcon icon={faGithub} className="github" />
+          </div>
+          <br />
+
           <div className="content">
             <p> This app was created by Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self
               for our final project at Le Wagon. Walkin it's a mobile app to answer the question "Where can
