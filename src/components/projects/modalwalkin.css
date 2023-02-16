@@ -1,6 +1,6 @@
 .overlay {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   top: 0;
   left: 0;
   right: 0;
@@ -9,11 +9,32 @@
 
 .modalContainer {
   position: fixed;
-  background-color: white;
+  background-color: black;
   top: 50%;
   left: 50%;
-  /* width: 100%; */
   transform: translate(-50%, -50%);
-  display: flex;
   z-index: 1000;
+  display: flex;
+}
+
+.image img {
+  height: 600px;
+  width: 325px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.close {
+  position: fixed;
+  top: 8px;
+  right: 20px;
+}
+
+.titleWalkin {
+  font-size: 50px;
+}
+
+.content p {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }

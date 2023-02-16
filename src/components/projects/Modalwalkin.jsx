@@ -8,13 +8,16 @@ const Modal = ({open, onClose}) => {
   return (
     <div className="overlay">
       <div className="modalContainer">
-        <img src={walkin} alt="" />
+        <div className='image'>
+          <img src={walkin} alt="" />
+        </div>
         <div className="modalRight">
+          <p className='titleWalkin'>WALKIN</p>
           <p onClick={onClose} className='close'>X</p>
           <div className="content">
-            <p>Lorem ipsum dolor sit amet. Est obcaecati fuga nam quia eaque eos asperiores autem ut nostrum consequatur
-              aut rerum voluptatum id voluptas neque et sequi sapiente. Ab consequatur iusto a galisum
-              sequi ut laudantium autem ex odio nihil non eligendi incidunt sit omnis impedit aut voluptatem nisi.
+            <p> This app was created by Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self
+              for our final project at Le Wagon. Walkin it's a mobile app to answer the question "Where can
+              I get a reservation tonight ?"
             </p>
           </div>
         </div>
