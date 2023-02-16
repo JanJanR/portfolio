@@ -27,10 +27,19 @@ const Modal = ({open, onClose}) => {
           <hr />
           <br />
           <div className="content">
-            <p> This app was created by Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self
+            <p> This app was created by <strong>Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self </strong>
               for our final project at Le Wagon. Walkin it's a mobile app to answer the question "Where can
               I get a reservation tonight ?"
             </p>
+          </div>
+          <div className='tech'>
+            {/* <p>Ruby on Rails</p>
+            <p>Javascript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>PostgreSQL</p>
+            <p>Heroku</p> */}
+            <p> Ruby on Rails | JavaScript | HTML | CSS | PostgreSQL | Heroku</p>
           </div>
         </div>
       </div>

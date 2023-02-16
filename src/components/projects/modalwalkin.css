@@ -16,6 +16,7 @@
   z-index: 1000;
   display: flex;
   border-radius: 20px;
+  /* border: 1px solid #E4C88E; */
 }
 
 .image img {
@@ -23,6 +24,7 @@
   width: 325px;
   margin-left: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .close {
@@ -39,6 +41,7 @@
   color: white;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 100px;
 }
 
 .text {
@@ -85,3 +88,17 @@
 .github:hover {
   color: white;
 }
+
+.tech {
+  color: white ;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  /* display: flex;
+  justify-content: space-around; */
+  /* margin-right: 20px; */
+}
+/*
+.tech p {
+  border: 1px solid #9382FF;
+  width: 160px;
+} */
