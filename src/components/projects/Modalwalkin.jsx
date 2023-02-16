@@ -17,12 +17,12 @@ const Modal = ({open, onClose}) => {
           <p onClick={onClose} className='close'>X</p>
           <p className='text'>WALKIN</p>
           <div className="info">
-            <p>Mobile</p>
+            <p>Mobile App |</p>
             <a href="https://walk--in.herokuapp.com/" target="_blank" rel="noreferrer"> Live </a>
             <FontAwesomeIcon icon={faGithub} className="github" />
           </div>
+          <hr />
           <br />
-
           <div className="content">
             <p> This app was created by Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self
               for our final project at Le Wagon. Walkin it's a mobile app to answer the question "Where can

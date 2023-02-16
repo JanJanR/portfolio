@@ -33,28 +33,42 @@
 }
 
 .content p {
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Raleway', sans-serif;
   color: white;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .text {
   font-size: 50px;
   color: white;
+  margin-bottom: 0;
 }
 
 .info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-left: 30px;
 }
 
 .info p {
   color: white;
-  font-size: 19px;
+  font-size: 25px;
+}
+
+.info a {
+  text-decoration: none;
+  background-color: violet;
+  font-size: 25px;
+  margin-left: 20px;
+  color: white;
+  width: 120px;
 }
 
 .github {
   color: white;
   font-size: 23px;
+  margin-left: 20px;
+
 }
