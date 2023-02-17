@@ -7,18 +7,18 @@
   bottom: 0;
 }
 
-.modalContainer {
+.modalairContainer {
   position: fixed;
   background-color: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1000;
-  display: flex;
   border-radius: 20px;
+  text-align: center;
 }
 
-.close {
+.closeair {
   position: fixed;
   top: 8px;
   right: 20px;
@@ -26,7 +26,7 @@
   color: white;
 }
 
-.content p {
+.contentair p {
   font-size: 27px;
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -35,19 +35,19 @@
   margin-bottom: 100px;
 }
 
-.text {
+.textair {
   font-size: 50px;
   color: white;
   margin-bottom: 0;
 }
 
-.info {
+.infoair {
   display: flex;
   align-items: center;
   margin-left: 30px;
 }
 
-.info p {
+.infoair p {
   color: white;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
@@ -86,3 +86,8 @@
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
+
+/* .imageair {
+  color: pink;
+  font-size: 50px;
+} */

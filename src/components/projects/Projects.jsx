@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="projects">
         <div className="card">
           <div className="final-project">
-            <img src= {walkin} alt="" />
+              <img src= {walkin} alt="" />
             <p className='descriptionProject'>Walkin is a mobile app that helps people to find a table for tonight to make a reservation.</p>
             <div>
               <button className="btn" onClick={() => setOpenModal(true)}>Learn More</button>
@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
         <div className="card">
           <div className="airbnb-clone">
-            <img src={clone} alt="" />
+              <img src={clone} alt="" />
             <p className='descriptionProject'>AirBroomNBroom (AirBnB clone) is a market place for broomstick rental.</p>
             <div>
               <button className="btn" onClick={() => setOpenModalair(true)}>Learn More</button>
