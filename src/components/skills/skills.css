@@ -9,6 +9,7 @@
 
 .cards p {
   color: white;
+  font-size: 20px;
 }
 
 .cards:hover{
@@ -20,6 +21,10 @@
 .skills {
   display: flex;
   justify-content: space-around;
+}
+
+.skills h2 {
+  font-size: 40px;
 }
 
 .title {
