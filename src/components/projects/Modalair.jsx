@@ -1,4 +1,4 @@
-import './modalwalkin.css'
+import './modalair.css'
 // import walkin from '../../assets/landing page walkin.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -23,17 +23,16 @@ const Modalair = ({open, onClose}) => {
         <p className='text'>AirBroomNBroom</p>
         <div className="info">
           <p>Desktop |</p>
-          <a href="https://walk--in.herokuapp.com/" target="_blank" rel="noreferrer" className='link'> Try it now</a>
-          <a href="https://github.com/JanJanR/walk-in" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="github" />
+          <a href="https://airbnb-yasbrown.herokuapp.com/" target="_blank" rel="noreferrer" className='linkair'> Try it now</a>
+          <a href="https://github.com/JanJanR/air_broom_and_broom" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} className="githubair" />
           </a>
         </div>
         <hr />
         <br />
         <div className="content">
           <p> This app was created by <strong>Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self </strong>
-            for our final project at Le Wagon. Walkin it's a mobile app to answer the question "Where can
-            I get a reservation tonight ?"
+            for our first project at Le Wagon. An online marketplace to rent broomstick (AirBnB clone).
           </p>
         </div>
         <div className='tech'>

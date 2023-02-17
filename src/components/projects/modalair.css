@@ -61,9 +61,9 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.link {
+.linkair {
   text-decoration: none;
-  background-color: #9382FF;
+  background-color: #cb7500;
   font-size: 25px;
   margin-left: 20px;
   color: white;
@@ -73,24 +73,24 @@
   height: 33px;
 }
 
-.link:hover {
+.linkair:hover {
   background-color: white;
-  color:#9382FF;
+  color:#cb7500;
 }
 
-.github {
-  color: #9382FF;
+.githubair {
+  color: #cb7500;
   font-size: 30px;
   margin-left: 20px;
 
 }
 
-.github:hover {
+.githubair:hover {
   color: white;
 }
 
 .tech {
-  color: #9382ff ;
+  color: #cb7500 ;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   /* display: flex;
