@@ -1,14 +1,23 @@
 .eachSlide {
-  height: 658px;
-  margin: 0;
+  height: 650px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .eachSlide img {
-  height: 600px;
+  height: 570px;
   width: 300px;
 }
 
-.thumbs {
+.carousel .thumbs {
   display: flex;
   justify-content: center;
+}
+
+.carousel button {
+  color: white;
+}
+
+.carousel .slider-wrapper {
+  width: 350px;
 }
