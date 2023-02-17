@@ -1,0 +1,23 @@
+.eachSlideair {
+  height: 650px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.eachSlideair img {
+  height: 250px;
+  width: 300px;
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel button {
+  color: white;
+}
+
+.carousel .slider-wrapper {
+  width: 500px;
+}

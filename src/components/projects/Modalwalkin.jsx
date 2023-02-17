@@ -5,6 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Slider from './Slider';
 
 
+
 const Modal = ({open, onClose}) => {
 
   if(!open) return null

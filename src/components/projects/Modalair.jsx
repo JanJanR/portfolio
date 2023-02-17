@@ -1,8 +1,7 @@
 import './modalair.css'
-// import walkin from '../../assets/landing page walkin.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import Slider from './Slider';
+import Sliderair from './Sliderair';
 
 
 const Modalair = ({open, onClose}) => {
@@ -15,8 +14,7 @@ const Modalair = ({open, onClose}) => {
       e.stopPropagation();
     }} className="modalContainer">
       <div className='image'>
-        {/* <img src={walkin} alt="" /> */}
-        <Slider />
+        <Sliderair />
       </div>
       <div className="modalRight">
         <p onClick={onClose} className='close'>X</p>
@@ -35,7 +33,7 @@ const Modalair = ({open, onClose}) => {
             for our first project at Le Wagon. An online marketplace to rent broomstick (AirBnB clone).
           </p>
         </div>
-        <div className='tech'>
+        <div className='techair'>
           <p> Ruby on Rails | JavaScript | HTML | CSS | PostgreSQL | Heroku</p>
         </div>
       </div>
