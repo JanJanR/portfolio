@@ -1,7 +1,8 @@
-import walkin from '../../assets/landing page walkin.png'
 import './modalwalkin.css'
+// import walkin from '../../assets/landing page walkin.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Slider from './Slider';
 
 
 const Modal = ({open, onClose}) => {
@@ -12,7 +13,8 @@ const Modal = ({open, onClose}) => {
     <div className="overlay">
       <div className="modalContainer">
         <div className='image'>
-          <img src={walkin} alt="" />
+          {/* <img src={walkin} alt="" /> */}
+          <Slider />
         </div>
         <div className="modalRight">
           <p onClick={onClose} className='close'>X</p>
@@ -33,12 +35,6 @@ const Modal = ({open, onClose}) => {
             </p>
           </div>
           <div className='tech'>
-            {/* <p>Ruby on Rails</p>
-            <p>Javascript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>PostgreSQL</p>
-            <p>Heroku</p> */}
             <p> Ruby on Rails | JavaScript | HTML | CSS | PostgreSQL | Heroku</p>
           </div>
         </div>

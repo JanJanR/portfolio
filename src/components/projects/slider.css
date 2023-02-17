@@ -1,0 +1,14 @@
+.eachSlide {
+  height: 658px;
+  margin: 0;
+}
+
+.eachSlide img {
+  height: 600px;
+  width: 300px;
+}
+
+.thumbs {
+  display: flex;
+  justify-content: center;
+}

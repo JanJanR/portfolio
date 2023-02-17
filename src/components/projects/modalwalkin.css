@@ -16,16 +16,15 @@
   z-index: 1000;
   display: flex;
   border-radius: 20px;
-  /* border: 1px solid #E4C88E; */
 }
 
-.image img {
+/* .image img {
   height: 600px;
   width: 325px;
   margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-}
+} */
 
 .close {
   position: fixed;
@@ -36,7 +35,7 @@
 }
 
 .content p {
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Raleway', sans-serif;
   color: white;
   margin-left: 50px;
@@ -90,7 +89,7 @@
 }
 
 .tech {
-  color: white ;
+  color: #9382ff ;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   /* display: flex;
