@@ -31,7 +31,7 @@
   margin-bottom: 100px;
 }
 
-.btn button {
+.btn {
   margin-top: 15px;
   width: 140px;
   height: 40px;
@@ -45,12 +45,12 @@
   outline: none;
 }
 
-.btn button:hover {
+.btn:hover {
   color: black;
   cursor: pointer;
 }
 
-.btn button:before {
+.btn:before {
   transition: 0.5s all ease;
   position: absolute;
   top: 0;
@@ -63,7 +63,7 @@
   border-radius: 20px;
 }
 
-.btn button:hover:before {
+.btn:hover:before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;

@@ -17,8 +17,8 @@ const Projects = () => {
           <div className="final-project">
             <img src= {walkin} alt="" />
             <p className='descriptionProject'>Walkin is a mobile app that helps people to find a table for tonight to make a reservation.</p>
-            <div className="btn">
-              <button onClick={() => setOpenModal(true)}>Learn More</button>
+            <div>
+              <button className="btn" onClick={() => setOpenModal(true)}>Learn More</button>
               <Modal open={openModal} onClose={() => setOpenModal(false)} />
             </div>
           </div>
@@ -27,8 +27,8 @@ const Projects = () => {
           <div className="airbnb-clone">
             <img src={clone} alt="" />
             <p className='descriptionProject'>AirBroomNBroom (AirBnB clone) is a market place for broomstick rental.</p>
-            <div className="btn">
-              <button>Learn More</button>
+            <div>
+              <button className="btn">Learn More</button>
             </div>
           </div>
         </div>
