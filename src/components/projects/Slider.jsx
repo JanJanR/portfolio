@@ -11,27 +11,29 @@ import walkin5 from '../../assets/walkin5.png'
 
 const Slider = () => {
   return (
-    <Carousel showThumbs={false} useKeyboardArrows={true}
-      showStatus={false} showArrows={true} infiniteLoop={true}>
-      <div className="eachSlide">
-        <img src= {walkin} alt="walkin" />
-      </div>
-      <div className="eachSlide">
-        <img src= {walkin1} alt="walkin1" />
-      </div>
-      <div className="eachSlide">
-        <img src= {walkin2} alt="walkin2" />
-      </div>
-      <div className="eachSlide">
-        <img src= {walkin3} alt="walkin3" />
-      </div>
-      <div className="eachSlide">
-        <img src= {walkin4} alt="walkin4" />
-      </div>
-      <div className="eachSlide">
-        <img src= {walkin5} alt="walkin5" />
-      </div>
-    </Carousel>
+    <div className="sizeCarousel">
+      <Carousel showThumbs={false} useKeyboardArrows={true}
+        showStatus={false} showArrows={true} infiniteLoop={true}>
+        <div className="eachSlide">
+          <img src= {walkin} alt="walkin" className="imageSlide" />
+        </div>
+        <div className="eachSlide">
+          <img src= {walkin1} alt="walkin1" className="imageSlide" />
+        </div>
+        <div className="eachSlide">
+          <img src= {walkin2} alt="walkin2" className="imageSlide" />
+        </div>
+        <div className="eachSlide">
+          <img src= {walkin3} alt="walkin3" className="imageSlide" />
+        </div>
+        <div className="eachSlide">
+          <img src= {walkin4} alt="walkin4" className="imageSlide" />
+        </div>
+        <div className="eachSlide">
+          <img src= {walkin5} alt="walkin5" className="imageSlide" />
+        </div>
+      </Carousel>
+    </div>
    );
 }
 

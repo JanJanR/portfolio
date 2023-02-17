@@ -15,10 +15,10 @@ const Modal = ({open, onClose}) => {
       <div onClick={(e) => {
         e.stopPropagation();
       }} className="modalContainer">
-        <div className='image'>
+        {/* <div className='image'> */}
           {/* <img src={walkin} alt="" /> */}
           <Slider />
-        </div>
+        {/* </div> */}
         <div className="modalRight">
           <p onClick={onClose} className='close'>X</p>
           <p className='text'>WALKIN</p>
