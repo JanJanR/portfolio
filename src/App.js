@@ -3,6 +3,7 @@ import Landing from './components/landing/Landing.jsx'
 import Aboutme from './components/about me/Aboutme.jsx'
 import Skills from './components/skills/Skills.jsx'
 import Projects from './components/projects/Projects.jsx'
+import Contact from './components/contact/Contact.jsx'
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     <Aboutme />
     <Skills />
     <Projects />
+    <Contact />
     </>
   );
 }
