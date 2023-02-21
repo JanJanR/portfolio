@@ -5,7 +5,7 @@ const landing = () => {
   return (
       <div className='intro' >
         <h1>
-          Hi There! I'm John,
+          Hi There! I'm John Romero,
           I'm a Full Stack Developer
         </h1>
         <img src= { memoji } alt="" />

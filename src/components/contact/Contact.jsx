@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <div className="contactCard">
         <div className="contentCard">
-          <p> Got an <strong>opportunity</strong> or a <strong>question</strong>, or just want to say Hello ? Feel free to reach me out.</p>
+          <p> Got an <strong>opportunity</strong> or <strong>questions</strong>, or just want to say Hello ? Feel free to reach me out.</p>
           <div className="contactIcon">
             <a href="https://github.com/JanJanR" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} className="fontAwesome"/>
