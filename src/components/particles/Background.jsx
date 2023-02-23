@@ -24,20 +24,17 @@ const ParticlesBackground = () => {
         },
         particles: {
             number: {
-                value: 10,
+                value: 40,
                 density: {
-                    enable: false,
-                    value_area: 800
+                    enable: true,
+                    value_area: 550
                 }
             },
             color: {
                 value: "#E4C88E"
             },
             shape: {
-                type: "star",
-                options: {
-                    sides: 5
-                }
+                type: "circle",
             },
             opacity: {
                 value: 0.8,
@@ -50,7 +47,7 @@ const ParticlesBackground = () => {
                 }
             },
             size: {
-                value: 4,
+                value: 2,
                 random: false,
                 anim: {
                     enable: false,
@@ -65,16 +62,9 @@ const ParticlesBackground = () => {
                 direction: "clockwise",
                 animation: {
                     enable: true,
-                    speed: 5,
+                    speed: 9,
                     sync: false
                 }
-            },
-            "line_linked": {
-                enable: true,
-                distance: 600,
-                color: "#E4C88E",
-                opacity: 0.4,
-                width: 2
             },
             move: {
                 enable: true,
@@ -96,25 +86,14 @@ const ParticlesBackground = () => {
                     enable: true,
                     mode: ["grab"]
                 },
-                onclick: {
-                    enable: false,
-                    mode: "bubble"
-                },
                 resize: true
             },
             modes: {
                 grab: {
-                    distance: 400,
+                    distance: 300,
                     line_linked: {
                         opacity: 1
                     }
-                },
-                bubble: {
-                    distance: 400,
-                    size: 40,
-                    duration: 2,
-                    opacity: 8,
-                    speed: 3
                 },
                 repulse: {
                     distance: 200
