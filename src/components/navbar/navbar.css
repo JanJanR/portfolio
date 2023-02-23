@@ -7,7 +7,6 @@
 }
 
 .navbar img {
-  color: #E4C88E ;
   margin-top: 10px;
   margin-left: 30px;
 }
@@ -16,8 +15,8 @@
   margin-right: 30px;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Megrim', cursive;
-  color: black;
+  font-family: 'Raleway', sans-serif;
+  color: #E4C88E;
 }
 
 .navbar a:hover {
