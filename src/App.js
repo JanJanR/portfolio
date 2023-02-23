@@ -1,3 +1,4 @@
+import Background from "./components/particles/Background.jsx";
 import Navbar from './components/navbar/Navbar.jsx'
 import Landing from './components/landing/Landing.jsx'
 import Aboutme from './components/about me/Aboutme.jsx'
@@ -7,6 +8,7 @@ import Contact from './components/contact/Contact.jsx'
 function App() {
   return (
     <>
+    <Background />
     <Navbar />
     <Landing />
     <Aboutme />

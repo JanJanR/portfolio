@@ -8,15 +8,15 @@ const landing = () => {
       <div className='intro' >
         <h1>
           Hi There! I'm John Romero,
-          <span>
           <Typewriter
             options={{
-              strings: ["I'm a Full Stack Developer"],
+              strings: ["I am a Full Stack Developer"],
               autoStart: true,
               loop: true,
+              pauseFor: 1500,
+              delay: 100,
             }}
           />
-          </span>
         </h1>
         <img src= { memoji } alt="" />
       </div>
