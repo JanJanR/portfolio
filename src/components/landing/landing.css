@@ -18,3 +18,17 @@
   height: 380px;
   margin-right: 145px;
 }
+
+@media (max-width: 1425px) {
+  .intro {
+    margin-top: 144px;
+  }
+
+  .intro img{
+    width: 280px;
+    height: 280px;
+  }
+  .intro h1 {
+    font-size: 55px;
+  }
+}
