@@ -1,7 +1,8 @@
 .eachSlideair img{
   object-fit: cover;
+  object-position: top;
   border-radius: 0;
-  height: 522px;
+  height: 369px;
 }
 
 .slideContainer{

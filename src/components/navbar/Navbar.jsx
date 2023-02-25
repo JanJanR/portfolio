@@ -1,5 +1,5 @@
 import './navbar.css'
-import logo from '../../assets/logo (1).png'
+import logo from '../../assets/logo (2).png'
 import {useState} from 'react'
 import {Link} from 'react-scroll'
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className='navbar'>
       <img src= { logo } alt="logo" />
         <div>
-          <Link to="aboutme" spy={true} smooth={true} offset={-80} duration={800} onClick={closeMenu}>Aboutme</Link>
+          <Link to="aboutme" spy={true} smooth={true} offset={-80} duration={800} onClick={closeMenu}>About me</Link>
           <Link to="skills" spy={true} smooth={true} offset={-420} duration={800} onClick={closeMenu}> Skills</Link>
           <Link to="projects" spy={true} smooth={true} offset={-200} duration={800} onClick={closeMenu}> Projects</Link>
           <Link to="contact" spy={true} smooth={true} offset={-200} duration={800} onClick={closeMenu}>Contact</Link>
