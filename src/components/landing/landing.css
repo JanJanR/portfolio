@@ -20,6 +20,11 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1600px) {
+  .intro {
+    margin-top: 230px;
+    margin-bottom: 390px;
+  }
+
   .intro h1 {
     font-size: 57px
   }
@@ -30,9 +35,10 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1435px) {
   .intro {
     margin-top: 144px;
+    margin-bottom: 300px;
   }
 
   .intro img{

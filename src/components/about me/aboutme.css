@@ -18,11 +18,11 @@
 
 .description {
   background-color: #E4C88E;
-  height: 270px;
-  width: 740px;
+  height: 335px;
+  width: 840px;
   text-align: center;
   border-radius: 50px;
-  font-size: 25px;
+  font-size: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -32,5 +32,39 @@
 }
 
 .container {
-  margin-bottom: 150px;
+  margin-bottom: 390px;
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .logo-computer img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description {
+    font-size: 22px;
+    width: 713px;
+    height: 225px;
+  }
+
+  .title h2{
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1435px) {
+  .logo-computer img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .description {
+    font-size: 20px;
+    width: 700px;
+    height: 200px;
+  }
+
+  .title h2{
+    font-size: 40px;
+  }
 }

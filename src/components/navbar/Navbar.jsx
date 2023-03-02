@@ -13,8 +13,8 @@ const Navbar = () => {
     <nav className='navbar'>
       <img src= { logo } alt="logo" />
         <div>
-          <Link to="aboutme" spy={true} smooth={true} offset={-80} duration={800} onClick={closeMenu}>About me</Link>
-          <Link to="skills" spy={true} smooth={true} offset={-420} duration={800} onClick={closeMenu}> Skills</Link>
+          <Link to="aboutme" spy={true} smooth={true} offset={-150} duration={800} onClick={closeMenu}>About me</Link>
+          <Link to="skills" spy={true} smooth={true} offset={-400} duration={800} onClick={closeMenu}> Skills</Link>
           <Link to="projects" spy={true} smooth={true} offset={-200} duration={800} onClick={closeMenu}> Projects</Link>
           <Link to="contact" spy={true} smooth={true} offset={-200} duration={800} onClick={closeMenu}>Contact</Link>
           {/* <a href="/"id="contactme">Contact me</a> */}

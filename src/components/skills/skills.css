@@ -34,3 +34,14 @@
   font-family:'Aboreto', cursive;
   margin-bottom: 100px;
 }
+
+.skills-container{
+  margin-bottom: 400px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .skills h2 {
+    font-size: 30px;
+  }
+}
