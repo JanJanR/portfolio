@@ -19,7 +19,18 @@
   margin-right: 145px;
 }
 
-@media (max-width: 1425px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .intro h1 {
+    font-size: 57px
+  }
+
+  .intro img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .intro {
     margin-top: 144px;
   }

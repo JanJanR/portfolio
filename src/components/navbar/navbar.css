@@ -28,7 +28,17 @@
   cursor: pointer;
 }
 
-@media (max-width: 1425px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .navbar img {
+    height: 50px;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
   .navbar img {
     height: 40px;
   }
