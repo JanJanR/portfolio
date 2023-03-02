@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.550f9df5.css",
+    "main.js": "/portfolio/static/js/main.19f57bd6.js",
+    "static/media/Mockup Walkin (1).png": "/portfolio/static/media/Mockup Walkin (1).a7a7dbf6d2a23507e7fb.png",
+    "static/media/AirBroomNBroom.png": "/portfolio/static/media/AirBroomNBroom.70f4dd59a72280924930.png",
+    "static/media/airbroomnbroom1.png": "/portfolio/static/media/airbroomnbroom1.89c1e6a7df3288c4438c.png",
+    "static/media/airbroomnbroom2.png": "/portfolio/static/media/airbroomnbroom2.56bf4eecfe2eba5df540.png",
+    "static/media/walkin3.png": "/portfolio/static/media/walkin3.f29692e8b1f1cd139c4b.png",
+    "static/media/walkin4.png": "/portfolio/static/media/walkin4.6bd44c8ad88fec7868ea.png",
+    "static/media/walkin2.png": "/portfolio/static/media/walkin2.0f201281ea2598f2393d.png",
+    "static/media/walkin5.png": "/portfolio/static/media/walkin5.97e9a8ee5551eed06927.png",
+    "static/media/walkin.png": "/portfolio/static/media/walkin.ce8fccf1bcd3f4f7dc29.png",
+    "static/media/walkin1.png": "/portfolio/static/media/walkin1.8054bc95ad62da59722a.png",
+    "static/media/memoji hi.png": "/portfolio/static/media/memoji hi.620577e148e7fb11b48d.png",
+    "static/media/airbroomnbroom4.png": "/portfolio/static/media/airbroomnbroom4.784664742a470d226eac.png",
+    "static/media/memoji computer.png": "/portfolio/static/media/memoji computer.a83d599d8c382f3f4c27.png",
+    "static/media/airbroomnbroom3.png": "/portfolio/static/media/airbroomnbroom3.17db6c4d0834a03ac2c5.png",
+    "index.html": "/portfolio/index.html",
+    "main.550f9df5.css.map": "/portfolio/static/css/main.550f9df5.css.map",
+    "main.19f57bd6.js.map": "/portfolio/static/js/main.19f57bd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.550f9df5.css",
+    "static/js/main.19f57bd6.js"
+  ]
+}
