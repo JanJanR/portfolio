@@ -3,8 +3,15 @@
   object-position: top;
   border-radius: 0;
   height: 369px;
+  width: 800px;
 }
 
 .slideContainer{
   margin: 0 20px 20px 20px;
+}
+
+@media (min-width: 1024px) and (max-width: 1435px) {
+  .eachSlideair img{
+    height: 282px;
+  }
 }

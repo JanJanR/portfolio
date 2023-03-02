@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.closeair {
+.close-air {
   position: fixed;
   top: 8px;
   right: 20px;
@@ -26,7 +26,7 @@
   color: white;
 }
 
-.contentair p {
+.content-air p {
   font-size: 27px;
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -35,25 +35,25 @@
   margin-bottom: 35px;
 }
 
-.textair {
+.text-air {
   font-size: 50px;
   color: white;
   margin-bottom: 0;
 }
 
-.infoair {
+.info-air {
   display: flex;
   align-items: center;
   margin-left: 30px;
 }
 
-.infoair p {
+.info-air p {
   color: white;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
 
-.linkair {
+.link-air {
   text-decoration: none;
   background-color: #cb7500;
   font-size: 25px;
@@ -65,24 +65,31 @@
   height: 33px;
 }
 
-.linkair:hover {
+.link-air:hover {
   background-color: white;
   color:#cb7500;
 }
 
-.githubair {
+.github-air {
   color: #cb7500;
   font-size: 30px;
   margin-left: 20px;
 
 }
 
-.githubair:hover {
+.github-air:hover {
   color: white;
 }
 
-.techair {
+.tech-air {
   color: #cb7500 ;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1435px) {
+  .content-air p {
+    font-size: 20px;
+  }
 }

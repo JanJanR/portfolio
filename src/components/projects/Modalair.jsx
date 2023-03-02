@@ -14,29 +14,27 @@ const Modalair = ({open, onClose}) => {
       e.stopPropagation();
     }} className="modalairContainer">
       <div className="modalairRight">
-        <p onClick={onClose} className='closeair'>X</p>
-        <p className='textair'>AirBroomNBroom</p>
-        <div className="infoair">
+        <p onClick={onClose} className='close-air'>X</p>
+        <p className='text-air'>AirBroomNBroom</p>
+        <div className="info-air">
           <p>Desktop |</p>
-          <a href="https://airbnb-yasbrown.herokuapp.com/" target="_blank" rel="noreferrer" className='linkair'> Try it now</a>
+          <a href="https://airbnb-yasbrown.herokuapp.com/" target="_blank" rel="noreferrer" className='link-air'> Try it now</a>
           <a href="https://github.com/JanJanR/air_broom_and_broom" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="githubair" />
+            <FontAwesomeIcon icon={faGithub} className="github-air" />
           </a>
         </div>
         <hr />
         <br />
-        <div className="contentair">
+        <div className="content-air">
           <p> This app was created by <strong>Francisco Goicoechea, Yasmin Brown, Lydia Ratto and my self </strong>
             for our first project at Le Wagon. An online marketplace to rent broomstick (AirBnB clone).
           </p>
         </div>
-        <div className='techair'>
+        <div className='tech-air'>
           <p> Ruby on Rails | JavaScript | HTML | CSS | PostgreSQL | Heroku</p>
         </div>
-      </div>
-      {/* <div className='imageair'> */}
         <Sliderair />
-      {/* </div> */}
+      </div>
     </div>
   </div>
    );
