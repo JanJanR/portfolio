@@ -95,4 +95,4 @@ export default Skills;
               <p>Figma</p>
             </motion.div>
           )}
-        </motion.div> */}
+          </motion.div> */}
