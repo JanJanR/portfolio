@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.550f9df5.css",
-    "main.js": "/portfolio/static/js/main.19f57bd6.js",
+    "main.css": "/portfolio/static/css/main.ae2fe7b4.css",
+    "main.js": "/portfolio/static/js/main.fe948fd6.js",
     "static/media/Mockup Walkin (1).png": "/portfolio/static/media/Mockup Walkin (1).a7a7dbf6d2a23507e7fb.png",
     "static/media/AirBroomNBroom.png": "/portfolio/static/media/AirBroomNBroom.70f4dd59a72280924930.png",
     "static/media/airbroomnbroom1.png": "/portfolio/static/media/airbroomnbroom1.89c1e6a7df3288c4438c.png",
@@ -11,17 +11,23 @@
     "static/media/walkin2.png": "/portfolio/static/media/walkin2.0f201281ea2598f2393d.png",
     "static/media/walkin5.png": "/portfolio/static/media/walkin5.97e9a8ee5551eed06927.png",
     "static/media/walkin.png": "/portfolio/static/media/walkin.ce8fccf1bcd3f4f7dc29.png",
+    "static/media/ruby.png": "/portfolio/static/media/ruby.70e6574496d4c8716fa1.png",
     "static/media/walkin1.png": "/portfolio/static/media/walkin1.8054bc95ad62da59722a.png",
+    "static/media/css.png": "/portfolio/static/media/css.6deaea301a4d5ca6b85c.png",
     "static/media/memoji hi.png": "/portfolio/static/media/memoji hi.620577e148e7fb11b48d.png",
     "static/media/airbroomnbroom4.png": "/portfolio/static/media/airbroomnbroom4.784664742a470d226eac.png",
     "static/media/memoji computer.png": "/portfolio/static/media/memoji computer.a83d599d8c382f3f4c27.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.166865dacb77d214f485.png",
     "static/media/airbroomnbroom3.png": "/portfolio/static/media/airbroomnbroom3.17db6c4d0834a03ac2c5.png",
+    "static/media/rails.png": "/portfolio/static/media/rails.098cc1b53e950f561ca1.png",
+    "static/media/react.png": "/portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/figma.png": "/portfolio/static/media/figma.257e6178b0dce1bce576.png",
     "index.html": "/portfolio/index.html",
-    "main.550f9df5.css.map": "/portfolio/static/css/main.550f9df5.css.map",
-    "main.19f57bd6.js.map": "/portfolio/static/js/main.19f57bd6.js.map"
+    "main.ae2fe7b4.css.map": "/portfolio/static/css/main.ae2fe7b4.css.map",
+    "main.fe948fd6.js.map": "/portfolio/static/js/main.fe948fd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.550f9df5.css",
-    "static/js/main.19f57bd6.js"
+    "static/css/main.ae2fe7b4.css",
+    "static/js/main.fe948fd6.js"
   ]
 }
