@@ -49,7 +49,6 @@ const Skills = () => {
       </div>
     </Carousel>
       </div>
-
     </div>
   );
 }
