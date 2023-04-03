@@ -39,6 +39,29 @@
   margin-bottom: 400px;
 }
 
+.html,
+.figma,
+.ruby,
+.javascript,
+.react {
+  height: 100px;
+  width: 100px;
+}
+
+.rails{
+  height: 100px;
+  width: 150px;
+}
+
+.heroku{
+  height: 100px;
+  width: 80px;
+}
+
+.css {
+  height: 110px;
+  width: 73px;
+}
 
 @media (min-width: 1024px) and (max-width: 1600px) {
   .skills h2 {

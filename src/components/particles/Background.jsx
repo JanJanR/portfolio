@@ -108,7 +108,7 @@ const ParticlesBackground = () => {
         },
         retina_detect: true,
         background: {
-            color: "#111",
+            color: "#ffff",
             image: "",
             position: "50% 50%",
             repeat: "no-repeat",
