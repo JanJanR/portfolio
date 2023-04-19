@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0fabcc3f.css",
-    "main.js": "/portfolio/static/js/main.81429f3d.js",
+    "main.css": "/portfolio/static/css/main.3764667e.css",
+    "main.js": "/portfolio/static/js/main.7a06fb1f.js",
     "static/media/Mockup PhilCannes.png": "/portfolio/static/media/Mockup PhilCannes.bc374df5587565fee9e3.png",
     "static/media/Mockup Airbroomnbroom.png": "/portfolio/static/media/Mockup Airbroomnbroom.f92fa51a8af5178568f9.png",
     "static/media/Mockup Walkin.png": "/portfolio/static/media/Mockup Walkin.7c6bec7315509b6ab934.png",
@@ -14,11 +14,11 @@
     "static/media/react.png": "/portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/figma.png": "/portfolio/static/media/figma.257e6178b0dce1bce576.png",
     "index.html": "/portfolio/index.html",
-    "main.0fabcc3f.css.map": "/portfolio/static/css/main.0fabcc3f.css.map",
-    "main.81429f3d.js.map": "/portfolio/static/js/main.81429f3d.js.map"
+    "main.3764667e.css.map": "/portfolio/static/css/main.3764667e.css.map",
+    "main.7a06fb1f.js.map": "/portfolio/static/js/main.7a06fb1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fabcc3f.css",
-    "static/js/main.81429f3d.js"
+    "static/css/main.3764667e.css",
+    "static/js/main.7a06fb1f.js"
   ]
 }
